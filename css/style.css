@@ -90,15 +90,22 @@ img {
   padding-bottom: 25px;
 }
 
-.phone,
-.adress {
+.phone {
   color: #fff;
   text-transform: uppercase;
 }
 
+.adress {
+  color: #fff;
+} 
+
+.phone-text {
+  color: #fff;
+  margin-right: 10px;
+}
 
 main {
-  overflow: hidden
+  overflow: hidden;
 }
 
 .swiper {
