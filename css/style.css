@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* центрирование страницы */
 .center {
   padding-left: calc(50% - 585px);
@@ -53,6 +57,10 @@ img {
   flex-direction: column;
 }
 
+.work-schedule {
+  color: #fff;
+}
+
 .header__top {
   display: flex;
   flex-wrap: wrap;
@@ -74,6 +82,15 @@ img {
   text-transform: uppercase;
 }
 
+.header__navigation-item:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.header__navigation-item:hover .header__navigation-link {
+  color: #000;
+}
+
 .phone-wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -84,6 +101,7 @@ img {
 }
 
 .navigation {
+  min-width: 80%;
   list-style: none;
   align-self: center;
   padding-top: 25px;
@@ -108,6 +126,10 @@ main {
   overflow: hidden;
 }
 
+.banner {
+  padding-top: 50px;
+}
+
 .swiper {
   width: 100%;
   height: 100%;
@@ -126,19 +148,98 @@ main {
   font-size: 30px;
   color: #fff;
   position: absolute;
-  left: 100px;
+  left: 50px;
   top: 50px;
 }
 
-.swiper-slide img {
+.slide-img {
   display: block;
-  width: 390px;
-  height: 260px;
+  width: 100%;
+  min-height: 400px;
   object-fit: fill;
 }
 
-@media (max-width: 1024px) {
-  .swiper-slide img {
-    width: 100%;
-  }
+.serviced_equipment {
+  padding-top: 65px;
+}
+
+.cards {
+  position: relative;
+}
+
+.card {
+  max-width: 1170px;
+  display: flex;
+  background-color: grey;
+}
+
+.card__header {
+  color: #fff;
+}
+
+.card__description {
+  flex-grow: 1;
+  padding: 25px;
+}
+
+.card-top {
+  clip-path: polygon(0 0, 100% 0, 100% 2%, 0 80%);
+}
+
+.card-bottom {
+  clip-path: polygon(0 98%, 100% 5%, 100% 100%, 0 100%);
+  position: absolute;
+  top: 0;
+}
+
+.card__description_bottom {
+  align-self: flex-end;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-end;
+}
+
+.list-works  {
+  list-style-type: none;
+  color: #fff;
+}
+
+.card__img {
+  width: 50%;
+}
+
+.reviews__article {
+  min-height: 250px;
+  padding: 25px;
+}
+
+.information {
+  display: flex;
+  align-items: center;
+}
+
+.information img {
+  width: 50px;
+}
+
+.information p {
+  padding-left: 10px;
+}
+
+.review-text {
+  padding: 10px;
+}
+
+.about-us h2 {
+  color: #fff;
+}
+
+.footer h2 {
+  color: #fff;
+}
+
+.footer {
+  padding-top: 50px;
+  padding-bottom: 50px;
 }

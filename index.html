@@ -14,6 +14,7 @@
         <img src="img/logo.jpg" alt="Логотип">
       </a>
       <a href="https://yandex.ru/maps/geo/shchyolkovo/53063412/?ll=38.016977%2C55.909496&utm_source=ntp_chrome&z=12.87" target="_blank" class="adress">г.Щелково</a>
+      <p class="work-schedule">График работы: <span>с 9:00 до 20:00</span></p>
       <div class="phone-wrapper">
         <p class="phone-text">Телефон: </p>
         <a href="tel:+78125550555" class="phone">+7 (812) 555-05-55</a>
@@ -21,19 +22,19 @@
     </div>
     <ul class="navigation header__navigation">
       <li class="header__navigation-item">
-        <a class="header__navigation-link" href="#">Мото</a>
+        <a class="header__navigation-link" href="#motorcicle">Мото</a>
       </li>
       <li class="header__navigation-item">
-        <a class="header__navigation-link" href="#">ATV</a>
+        <a class="header__navigation-link" href="#atv">ATV</a>
       </li>
       <li class="header__navigation-item">
-        <a class="header__navigation-link" href="#">Снегоходы</a>
+        <a class="header__navigation-link" href="#snowmobile">Снегоходы</a>
       </li>
       <li class="header__navigation-item">
-        <a class="header__navigation-link" href="#">ПЛМ</a>
+        <a class="header__navigation-link" href="#plm">ПЛМ</a>
       </li>
       <li class="header__navigation-item">
-        <a class="header__navigation-link" href="#">Гидроциклы</a>
+        <a class="header__navigation-link" href="#hydrocycle">Гидроциклы</a>
       </li>
     </ul>
   </header>
@@ -43,7 +44,7 @@
         <div class="wrapper swiper-wrapper">
           <div class="slide swiper-slide">
             <p class="slide-text">Слайд 1</p>
-            <img src="img/moto.jpg" alt="">
+            <img class="slide-img" src="img/moto.jpg" alt="">
           </div>
           <div class="slide swiper-slide">
             <p class="slide-text">Слайд 2</p>
@@ -51,35 +52,159 @@
           </div>
           <div class="slide swiper-slide">
             <p class="slide-text">Слайд 3</p>
-            <img src="img/moto3.jpg" alt="">
+            <img class="slide-img" src="img/moto3.jpg" alt="">
           </div>
           <div class="slide swiper-slide">
             <p class="slide-text">Слайд 4</p>
-            <img src="img/moto.jpg" alt="">
+            <img class="slide-img" src="img/moto.jpg" alt="">
           </div>
           <div class="slide swiper-slide">
             <p class="slide-text">Слайд 5</p>
-            <img src="img/moto2.jpg" alt="">
+            <img class="slide-img" src="img/moto2.jpg" alt="">
           </div>
           <div class="slide swiper-slide">
             <p class="slide-text">Слайд 6</p>
-            <img src="img/moto3.jpg" alt="">
+            <img class="slide-img" src="img/moto3.jpg" alt="">
           </div>
         </div>
       </div>
     </section>
     <section class="serviced_equipment">
-      <h2>Техника которую мы обслуживаем</h2>
+      <h2 class="visually-hidden">Техника которую мы обслуживаем</h2>
+      <div class="cards center">
+        <div id="motorcicle" class="card card-top">
+          <img class="card__img" src="img/moto2.jpg" alt="">
+          <div class="card__description">
+            <h3 class="card__header">Мотосервис:</h3>
+            <ul class="card__list list-works">
+              <li>ремонт</li>
+              <li>ТО</li>
+              <li>хранение</li>
+              <li>обслуживание</li>
+            </ul>
+          </div>
+        </div>
+        <div id="atv" class="card card-bottom">
+          <div class="card__description card__description_bottom">
+            <h3 class="card__header">ATV:</h3>
+            <ul class="card__list list-works">
+              <li>ремонт</li>
+              <li>ТО</li>
+              <li>хранение</li>
+              <li>обслуживание</li>
+            </ul>
+          </div>
+          <img class="card__img" src="img/moto3.jpg" alt="">
+        </div>
+      </div>
+      <div class="cards center">
+        <div id="snowmobile" class="card card-top">
+          <img class="card__img" src="img/moto2.jpg" alt="">
+          <div class="card__description">
+            <h3 class="card__header">Снегоходы:</h3>
+            <ul class="card__list list-works">
+              <li>ремонт</li>
+              <li>ТО</li>
+              <li>хранение</li>
+              <li>обслуживание</li>
+            </ul>
+          </div>
+        </div>
+        <div id="plm" class="card card-bottom">
+          <div class="card__description card__description_bottom">
+            <h3 class="card__header">ПЛМ:</h3>
+            <ul class="card__list list-works">
+              <li>ремонт</li>
+              <li>ТО</li>
+              <li>хранение</li>
+              <li>обслуживание</li>
+            </ul>
+          </div>
+          <img class="card__img" src="img/moto3.jpg" alt="">
+        </div>
+      </div>
+      <div class="cards center">
+        <div id="hydrocycle" class="card card-top">
+          <img class="card__img" src="img/moto2.jpg" alt="">
+          <div class="card__description">
+            <h3 class="card__header">Гидроциклы:</h3>
+            <ul class="card__list list-works">
+              <li>ремонт</li>
+              <li>ТО</li>
+              <li>хранение</li>
+              <li>обслуживание</li>
+            </ul>
+          </div>
+        </div>
+        <div class="card card-bottom">
+          <div class="card__description card__description_bottom">
+            <h3 class="card__header">Почему мы?</h3>
+          </div>
+          <img class="card__img" src="img/moto3.jpg" alt="">
+        </div>
+      </div>
     </section>
-    <section>
-      Описание
+    <section class="about-us center">
+      <h2>Описание инструмент и всякая петрушка</h2>
     </section>
-    <section class="reviews">
-      <h2>Jnpsds</h2>
+    <section class="reviews center">
+      <h2>Нам доверяют</h2>
+      <div class="review__wrapper swiper">
+        <div class="wrapper swiper-wrapper">
+          <div class="reviews__article slide swiper-slide">
+            <div class="information">
+              <img src="img/generic.png" alt="Фото человека написавшего отзыв">
+              <p>Иван</p>
+            </div>
+            <p class="review-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe aliquid, voluptas in ipsa aut expedita provident repudiandae voluptate ad cumque, iusto quis...</p>
+            <a href="#">Читать весь отзыв</a>
+          </div>
+          <div class="reviews__article slide swiper-slide">
+            <div class="information">
+              <img src="img/generic.png" alt="Фото человека написавшего отзыв">
+              <p>Владимир</p>
+            </div>
+            <p class="review-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe aliquid, voluptas in ipsa aut expedita provident repudiandae voluptate ad cumque, iusto quis...</p>
+            <a href="#">Читать весь отзыв</a>
+          </div>
+          <div class="reviews__article slide swiper-slide">
+            <div class="information">
+              <img src="img/generic.png" alt="Фото человека написавшего отзыв">
+              <p>Данила</p>
+            </div>
+            <p class="review-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe aliquid, voluptas in ipsa aut expedita provident repudiandae voluptate ad cumque, iusto quis...</p>
+            <a href="#">Читать весь отзыв</a>
+          </div>
+          <div class="reviews__article slide swiper-slide">
+            <div class="information">
+              <img src="img/generic.png" alt="Фото человека написавшего отзыв">
+              <p>Елизавета</p>
+            </div>
+            <p class="review-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe aliquid, voluptas in ipsa aut expedita provident repudiandae voluptate ad cumque, iusto quis...</p>
+            <a href="#">Читать весь отзыв</a>
+          </div>
+          <div class="reviews__article slide swiper-slide">
+            <div class="information">
+              <img src="img/generic.png" alt="Фото человека написавшего отзыв">
+              <p>Николай</p>
+            </div>
+            <p class="review-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe aliquid, voluptas in ipsa aut expedita provident repudiandae voluptate ad cumque, iusto quis...</p>
+            <a href="#">Читать весь отзыв</a>
+          </div>
+          <div class="reviews__article slide swiper-slide">
+            <div class="information">
+              <img src="img/generic.png" alt="Фото человека написавшего отзыв">
+              <p>Виктория</p>
+            </div>
+            <p class="review-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe aliquid, voluptas in ipsa aut expedita provident repudiandae voluptate ad cumque, iusto quis...</p>
+            <a href="#">Читать весь отзыв</a>
+          </div>
+        </div>
+      </div>
     </section>
   </main>
-  <footer>
-    <h2>Подвал сайта можно указать социальные сети, продублировать контакты и т.д.</h2>
+  <footer class="footer center">
+    <h2>Подвал сайта!!! Можно указать социальные сети, продублировать контакты и адрес, сделать кнопку Viber, WatsUp </h2>
   </footer>
   <script src="js/swiper/swiper-bundle.min.js"></script>
   <script type="text/javascript" src="js/script.js">
