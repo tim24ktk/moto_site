@@ -231,17 +231,17 @@ main {
 .reviews__button {
   margin-top: 40px;
   padding: 10px 25px;
-  border: 1px solid transparent;
+  border: 1px solid #FFF;
   cursor: pointer;
   color: #fff;
   align-self: center;
   border-radius: 10px;
-  background-color: goldenrod;
+  background-color: transparent;
 }
 
 .reviews__button:hover {
-  background-color: transparent;
-  border: 1px solid #FFF;
+  background-color: #fff;
+  color: #000;
 }
 
 .information {
