@@ -209,9 +209,39 @@ main {
   width: 50%;
 }
 
+.reviews {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.reviews__header {
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  color: #fff;
+}
+
 .reviews__article {
   min-height: 250px;
   padding: 25px;
+}
+
+.reviews__button {
+  margin-top: 40px;
+  padding: 10px 25px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  color: #fff;
+  align-self: center;
+  border-radius: 10px;
+  background-color: goldenrod;
+}
+
+.reviews__button:hover {
+  background-color: transparent;
+  border: 1px solid #FFF;
 }
 
 .information {
